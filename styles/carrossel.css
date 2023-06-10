@@ -73,3 +73,37 @@
 .estrelinha {
   margin-bottom: 0.5em;
 }
+
+.botoes__item {
+  padding: 1em 0 0 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .carrossel {
+    align-items:  center;
+  }
+  
+  .carrossel__titulo {
+    padding: 2.5em 0 1em 0;
+    font-size: 26px;
+  }
+
+  .swiper-pagination {
+    margin: 1em 0 5em 0;
+  }
+
+  .swiper {
+    width: 60%;
+  }
+
+  .card {
+    width: 40%;
+    margin: 2.5em auto;
+  }
+
+  .swiper-button-prev,
+.swiper-button-next {
+  display: block;
+  top: 65%;
+}
+}

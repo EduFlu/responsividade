@@ -4,6 +4,7 @@
 @import url("styles/Topicos.css");
 @import url("styles/novidades.css");
 @import url("styles/rodape.css");
+
 :root {
   --cor-de-fundo: #ebecee;
   --cor-laranja: #eb9b00;
@@ -14,6 +15,8 @@
   );
   --cord-azul: #002f52;
   --cor-branca: #ffffff;
+  --cor-cinza-claro:#858585;
+  --cor-cinza-escuro:#474646;
   --cor-preta: #000000;
   --fonte-secundaria: "Josefin Sans";
   --fonte-primaria: "Poppins";
