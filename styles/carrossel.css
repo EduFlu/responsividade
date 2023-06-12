@@ -66,9 +66,6 @@
   text-decoration: none;
 }
 
-.descrição {
-  padding: 0 1em 0 0;
-}
 
 .estrelinha {
   margin-bottom: 0.5em;
@@ -77,6 +74,7 @@
 .botoes__item {
   padding: 1em 0 0 0;
 }
+
 
 @media screen and (min-width: 1024px) {
   .carrossel {
@@ -106,4 +104,54 @@
   display: block;
   top: 65%;
 }
+}
+
+
+@media screen and (min-width: 1728px){
+  .carrossel__computador {
+    display: flex;
+    margin: 0 15vw 3em 15vw;
+    align-items: center;
+  }
+  
+
+  .carrossel__titulo {
+    font-size: 32px;
+  }
+
+  .descrição {
+    margin-right: 2.5em;
+  }
+
+  .descrição__titulo {
+    font-size: 32px;
+  }
+
+  .descrição__titulo--livro {
+    font-size: 18px;
+    margin: 0.5em 0 0.5em 0;
+  }
+  
+  .descrição__texto {
+    font-size: 16px;
+  }
+
+  .swiper-pagination {
+    margin: 1em 0;
+  }
+
+  .swiper {
+    width: 70%;
+  }
+
+  .card {
+    width: 70%;
+    margin-left: 5em;
+  }
+
+  .botoes__ancora:hover {
+    color: var(--cor-branca);
+    background-color: var(--cor-azul-claro);
+  }
+
 }
